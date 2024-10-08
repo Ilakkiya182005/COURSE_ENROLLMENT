@@ -1,0 +1,40 @@
+
+
+body {
+    background-color: rgb(2, 2, 35);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#container {
+    margin: 75px;
+    width:400px;
+    font-size: bold;
+    border-radius: 15px;
+    padding-top: 10px;
+    border: 2px solid black;
+    background: #d7e60633;
+    backdrop-filter: blur(5px);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    color:#fff;
+}
+
+
+#result {
+    margin-top: 20px;
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    width: auto;
+    height: auto;
+}
+
+#result p {
+    padding-top: 10px;
+    height: 27px;
+    width: 450px;
+}
+
+tr {
+    height: 29px;
+}

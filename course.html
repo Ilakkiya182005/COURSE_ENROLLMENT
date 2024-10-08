@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="course.css">
+</head>
+
+<body>
+    <center>
+        <div id="container">
+
+            <h1>Course Details</h1>
+
+            <table>
+
+                <tr>
+                    <td>Course Name</td>
+                    <td> <input type="text" id="name" placeholder="Enter Course Name" required> </td>
+                </tr>
+
+
+                <tr>
+                    <td>Course Code</td>
+                    <td> <input type="text" id="code" placeholder="Enter Code" required> </td>
+                </tr>
+
+
+                <tr>
+                    <td>Number of Students</td>
+                    <td> <input type="number" id="count" placeholder="Enter students count" required> </td>
+                </tr>
+
+                <tr>
+                    <td colspan="2" style="text-align: center;">
+                        <button id="add" onclick="addition()">Add</button>
+                        <button id="delete" onclick="deletion()">Delete</button>
+                    </td>
+                </tr>
+
+
+            </table>
+
+            <div id="result"></div>
+
+        </div>
+
+
+
+    </center>
+
+    <script src="course.js"></script>
+
+</body>
+
+</html>
